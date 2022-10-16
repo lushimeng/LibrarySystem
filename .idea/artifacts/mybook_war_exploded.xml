@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mybook:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mybook_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="mybook/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mybook" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="c3p0-0.9.5.5" />
+          <element id="library" level="project" name="commons-dbutils-1.7" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+          <element id="library" level="project" name="fastjson-1.2.47" />
+          <element id="library" level="project" name="mchange-commons-java-0.2.19" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.42-bin" />
+          <element id="library" level="project" name="standard-1.1.2" />
+          <element id="library" level="project" name="javax.annotation" />
+          <element id="library" level="project" name="commons-fileupload-1.4 (2)" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
